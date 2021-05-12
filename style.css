@@ -40,19 +40,13 @@ p > a:first-of-type {
   margin-top: 50px;
 }
 
-/* .card-container {
- 
-  height: 300px;
-  width: 1180px;
-  
-} */
-
 .card {
   width: 250px;
   height: 250px;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.59);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.59);
   transition: all 0.5s ease-in;
+  cursor: pointer;
 }
 
 .card:hover {
