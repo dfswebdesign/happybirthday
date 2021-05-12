@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* canvas {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	height:100vh;
+} */
+p {
+  margin: 0 0;
+  position: absolute;
+  font: 16px Verdana;
+  color: #eee;
+  height: 25px;
+  top: calc(100vh - 30px);
+  text-shadow: 0 0 2px white;
+}
+p a {
+  text-decoration: none;
+  color: #aaa;
+}
+span {
+  font-size: 11px;
+}
+p > a:first-of-type {
+  font-size: 20px;
+}
+/* body {
+	overflow: hidden;
+} */
+
+.body {
+  font-family: "roboto" "san-serif";
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* .card-container {
+ 
+  height: 300px;
+  width: 1180px;
+  
+} */
+
+.card {
+  width: 250px;
+  height: 250px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.59);
+  transition: all 0.5s ease-in;
+}
+
+.card:hover {
+  transform: rotate(25deg) scale(1.1);
+  /* transform: scale(1.1); */
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  background-color: #ff69b4;
+  font-size: 25px;
+}
+
+.greeting {
+  color: #222;
+  text-align: center;
+  padding: 10px;
+  /* background-color: #50c878; */
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: 35px;
+  text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  .card {
+    width: 100%;
+    height: 250px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.59);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.59);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
