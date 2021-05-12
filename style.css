@@ -76,6 +76,7 @@ p > a:first-of-type {
 .footer {
   font-size: 35px;
   text-align: center;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 780px) {
